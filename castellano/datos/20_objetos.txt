@@ -1,0 +1,362 @@
+# Objetos. Nombres oficiales (PokeAPI, idioma es) abreviados a 12 caracteres como en los
+# juegos de GBA; los objetos propios de PokeWilds están traducidos a mano.
+# Formato: @ nombre interno | nombre en castellano
+
+# --- Bonguris (el menú muestra "APRCN" en lugar de "APRICORN") ---
+@ white apricorn | Bonguri Bla.
+@ black apricorn | Bonguri Neg.
+@ red apricorn | Bonguri Rojo
+@ blue apricorn | Bonguri Azul
+@ yellow apricorn | Bonguri Ama.
+@ pink apricorn | Bonguri Rosa
+@ green apricorn | Bonguri Ver.
+@ white aprcn | Bonguri Bla.
+@ black aprcn | Bonguri Neg.
+@ red aprcn | Bonguri Rojo
+@ blue aprcn | Bonguri Azul
+@ yellow aprcn | Bonguri Ama.
+@ pink aprcn | Bonguri Rosa
+@ green aprcn | Bonguri Ver.
+@ apricorn | Bonguri
+@ aprcn | Bonguri
+
+# --- Cañas ---
+@ old rod | Caña Vieja
+@ good rod | Caña Buena
+@ super rod | Supercaña
+
+# --- Bayas ---
+@ pecha berry | Baya Meloc
+@ cheri berry | Baya Zreza
+@ rawst berry | Baya Safre
+@ aspear berry | Baya Perasi
+@ persim berry | Baya Caquic
+@ chesto berry | Baya Atania
+@ lum berry | Baya Ziuela
+@ berry seed | Semilla Baya
+@ pecha | Meloc
+@ cheri | Zreza
+@ rawst | Safre
+@ aspear | Perasi
+@ persim | Caquic
+@ chesto | Atania
+@ lum | Ziuela
+
+# --- Materiales ---
+@ log | Tronco
+@ grass | Hierba
+@ dry sand | Arena Seca
+@ light clay | Arcilla Luz
+@ flowers | Flores
+@ cursed soil | T. Maldita
+@ ashen soil | T. Ceniza
+@ dry soil | T. Seca
+@ mystic soil | T. Mística
+@ damp soil | T. Húmeda
+@ soft sand | Arena Fina
+@ manure | Estiércol
+@ clear glass | Cristal
+@ thin paper | Papel Fino
+@ soft bedding | Ropa de Cama
+@ soft wool | Lana Suave
+@ soft feather | Pluma Suave
+@ silky thread | Hilo Sedoso
+@ hard stone | Piedra Dura
+@ hard shell | Concha Dura
+@ charcoal | Carbón
+@ magnet | Imán
+@ honey | Miel
+@ stardust | Polvoestelar
+@ star piece | Trozo Estr.
+@ psi energy | E. Psíquica
+@ dark energy | E. Siniestra
+@ life force | Fuerza Vital
+@ ancientpowder | Polvoantiguo
+@ ancient dust | Polvoantiguo
+@ nevermeltice | Antiderretir
+@ nvrmlt ice | Antiderretir
+@ dragon scale | Escamadragón
+@ dragon fang | Colmillodrag
+@ binding band | Banda Atad.
+@ metal coat | Revest. Met.
+@ poison barb | Flecha Ven.
+@ miracle seed | Semilla Mil.
+@ spell tag | Hechizo
+@ big pearl | Perla Grande
+
+# --- Balls ---
+@ poké ball | Poké Ball
+@ poke ball | Poké Ball
+@ great ball | Super Ball
+@ ultra ball | Ultra Ball
+@ master ball | Master Ball
+@ love ball | Amor Ball
+@ fast ball | Rapid Ball
+@ lure ball | Cebo Ball
+@ moon ball | Luna Ball
+@ friend ball | Amigo Ball
+@ heavy ball | Peso Ball
+@ level ball | Nivel Ball
+@ dusk ball | Ocaso Ball
+@ net ball | Malla Ball
+@ dive ball | Buceo Ball
+@ quick ball | Veloz Ball
+@ heal ball | Sana Ball
+@ nest ball | Nido Ball
+@ dream ball | Ensueño Ball
+@ timer ball | Turno Ball
+@ park ball | Parque Ball
+@ safari ball | Safari Ball
+
+# --- Fósiles ---
+@ old amber | Ámbar Viejo
+@ helix fossil | Fósil Hélix
+@ dome fossil | Fósil Domo
+@ claw fossil | Fósil Garra
+@ root fossil | Fósil Raíz
+@ armor fossil | Fósil Coraza
+@ skull fossil | Fósil Cráneo
+@ shield fossil | Fósil Escudo
+
+# --- Piedras evolutivas ---
+@ water stone | Piedra Agua
+@ fire stone | Piedra Fuego
+@ leaf stone | Piedra Hoja
+@ thunderstone | Piedratrueno
+@ thunder stone | Piedratrueno
+@ moon stone | Piedra Lunar
+@ sun stone | Piedra Solar
+@ ice stone | Piedra Hielo
+@ dawn stone | Piedra Alba
+@ dusk stone | Piedra Noche
+@ shiny stone | Piedra Día
+@ sweet apple | Manz. Dulce
+
+# --- Curación y varios ---
+@ berry juice | Zumo de Baya
+@ moomoo milk | Leche Mu-mu
+@ ragecandybar | Caram. Furia
+@ rare candy | Carameloraro
+@ revive | Revivir
+@ max revive | Máx. Revivir
+@ repel | Repelente
+@ max repel | Máx. Repel
+@ escape rope | Cuerda Huida
+@ sleeping bag | Saco Dormir
+@ secret key | LlaveSecreta
+@ silph scope | Visor Silph
+@ poké doll | Poké Muñeco
+@ poke doll | Poké Muñeco
+@ upgrade | Mejora
+@ dubious disc | Disco Extr.
+@ mystic water | Agua Mística
+@ worn disc | Disco Gastado
+@ bed | Cama
+@ bedding | Ropa de Cama
+@ egg | Huevo
+
+# --- Nombres cortos para la lista de requisitos de construcción ---
+# (esa pantalla parte el nombre en palabras, una por línea)
+@ req:log | Tronco
+@ req:grass | Hierba
+@ req:hard stone | Piedra
+@ req:clear glass | Cristal
+@ req:ashen soil | Ceniza
+@ req:cursed soil | T.Maldita
+@ req:damp soil | T.Húmeda
+@ req:dry soil | T.Seca
+@ req:mystic soil | T.Mística
+@ req:dry sand | Arena
+@ req:soft sand | Arena Fina
+@ req:light clay | Arcilla
+@ req:flowers | Flores
+@ req:charcoal | Carbón
+@ req:dusk stone | P.Noche
+@ req:life force | F.Vital
+@ req:magnet | Imán
+@ req:miracle seed | Semilla
+@ req:nevermeltice | Antiderr.
+@ req:psi energy | E.Psíquica
+@ req:sleeping bag | Saco
+@ req:soft bedding | Cama
+@ req:soft wool | Lana
+@ req:spell tag | Hechizo
+@ req:thin paper | Papel
+
+# --- Descripciones del menú de objetos (máx. 2 líneas de 19 caracteres) ---
+= A white APRICORN.
+> Un BONGURI blanco.
+= A black APRICORN.
+> Un BONGURI negro.
+= A red APRICORN.
+> Un BONGURI rojo.
+= A blue APRICORN.
+> Un BONGURI azul.
+= A yellow APRICORN.
+> Un BONGURI amarillo.
+= A pink APRICORN.
+> Un BONGURI rosa.
+= A green APRICORN.
+> Un BONGURI verde.
+= Use by water to fish for POKéMON.
+> Úsala en el agua para pescar POKéMON.
+= Cures <> of  POISON.
+> Cura a un <> del ENVENENAMIENTO.
+= Cures <> of PARALYSIS.
+> Cura a un <> de la PARÁLISIS.
+= Cures <> of BURN.
+> Cura a un <> de las QUEMADURAS.
+= Cures <> of  FREEZE.
+> Descongela a un <>.
+= Cures <> of CONFUSION.
+> Cura a un <> de la CONFUSIÓN.
+= Cures <> of SLEEP.
+> Despierta a un <> dormido.
+= Cures <> of STATUS EFFECTS.
+> Cura cualquier problema de estado.
+= Can be planted to grow BERRIES.
+> Se planta para que crezcan BAYAS.
+= A sturdy LOG.
+> Un TRONCO robusto.
+= Freshly cut GRASS.
+> HIERBA recién cortada.
+= Hot, dry sand from the desert.
+> Arena seca y caliente del desierto.
+= Soft clay from the mountains.
+> Arcilla blanda de las montañas.
+= Small, beautiful flowers.
+> Flores pequeñas y bonitas.
+= Soil taken from a graveyard.
+> Tierra sacada de un cementerio.
+= Soil found near a volcano.
+> Tierra hallada junto a un volcán.
+= Dry soil from the savannah.
+> Tierra seca de la sabana.
+= Soft, light sand from the beach.
+> Arena fina y ligera de la playa.
+= A tool for catching POKéMON.
+> Sirve para atrapar POKéMON.
+= A good tool for catching POKéMON.
+> Sirve bien para atrapar POKéMON.
+= An excellent tool for catching <>.
+> Excelente para atrapar POKéMON.
+= Catch <> of the opposite gender.
+> Atrapa <> del sexo opuesto.
+= Most effective on fast POKéMON.
+> Eficaz con POKéMON rápidos.
+= Most effective while fishing.
+> Muy eficaz al pescar.
+= For <> that evolve by Moon Stone.
+> Eficaz con <> de PIEDRA LUNAR.
+= A ball that raises FRIENDSHIP.
+> Una BALL que aumenta la AMISTAD.
+= Most effective on heavy POKéMON.
+> Eficaz con POKéMON pesados.
+= Most effective on low-level POKéMON.
+> Eficaz con POKéMON de nivel bajo.
+= Most effective in dark areas.
+> Eficaz en lugares oscuros.
+= Best for BUG and WATER type <>.
+> Ideal para <> BICHO y AGUA.
+= Catch POKéMON underwater.
+> Atrapa POKéMON bajo el agua.
+= Best when used at start of encounter
+> Ideal al inicio del combate.
+= Heals POKéMON it contains.
+> Cura al POKéMON que atrapa.
+= Most effective on weaker POKéMON.
+> Eficaz con POKéMON débiles.
+= Catch sleeping POKéMON.
+> Atrapa POKéMON dormidos.
+= Most effective in a longer battle.
+> Eficaz en combates largos.
+= Amber containing DNA of ancient <>.
+> Ámbar con ADN de un <> antiguo.
+= A fossil of an ancient POKéMON.
+> Fósil de un POKéMON antiguo.
+= A sparkling  powder.
+> Un polvo brillante.
+= An energy exuded by PSYCHIC types.
+> Energía emitida por tipos PSÍQUICO.
+= Wood burned by a FIRE type.
+> Madera quemada por un tipo FUEGO.
+= Fragments of a WATER type' shell.
+> Trozos de concha de un tipo AGUA.
+= A mysterious key.
+> Una llave misteriosa.
+= A smelly fertilizer.
+> Un fertilizante maloliente.
+= Can evolve certain POKéMON.
+> Hace evolucionar a ciertos POKéMON.
+= A sparkling gem.
+> Una gema brillante.
+= An energy exuded by DARK types.
+> Energía emitida por tipos SINIESTRO.
+= An energy from GHOST types.
+> Energía de los tipos FANTASMA.
+= A healing drink that restores HP.
+> Bebida curativa que restaura PS.
+= A mysterious and rare powder.
+> Un polvo raro y misterioso.
+= A nutritious drink that restores HP.
+> Leche nutritiva que restaura PS.
+= A sweet and sticky treat.
+> Un dulce pegajoso y sabroso.
+= Thick, fluffy  wool.
+> Lana gruesa y esponjosa.
+= A small but powerful magnet.
+> Un imán pequeño pero potente.
+= A special ice that doesnì melt.
+> Un hielo especial que no se derrite.
+= A scale from a DRAGON type.
+> Escama de un tipo DRAGÓN.
+= A fang from a DRAGON type.
+> Colmillo de un tipo DRAGÓN.
+= A durable band.
+> Una banda muy resistente.
+= A coat shed by STEEL types.
+> Capa mudada por tipos ACERO.
+= A small, poisonous barb.
+> Una púa pequeña y venenosa.
+= Can be planted to grow GRASS.
+> Se planta para que crezca HIERBA.
+= Durable rock.
+> Roca muy resistente.
+= A stray feather from a FLYING type
+> Pluma perdida de un tipo VOLADOR.
+= Delicate thread from a BUG type.
+> Hilo delicado de un tipo BICHO.
+= A soft paper good for making posters
+> Papel fino, útil para carteles.
+= For a comfy bed and faster healing
+> Cama cómoda para curarse antes.
+= A spray that repels weak POKéMON.
+> Espray que ahuyenta POKéMON débiles.
+= Clear, delicate glass.
+> Cristal transparente y delicado.
+= An item that identifies ghosts.
+> Permite identificar fantasmas.
+= A candy bar that can restore HP.
+> Caramelo que restaura PS.
+= Raises a POKéMON' level by 1.
+> Sube un nivel a un POKéMON.
+= A cute plushie.
+> Un peluche adorable.
+= Restores a fainted <> to half hp.
+> Reanima a un <> con la mitad de PS.
+= Fully restores a fainted <>.
+> Reanima a un <> con todos sus PS.
+= The best BALL. It never misses.
+> La mejor BALL. Nunca falla.
+= Takes you to a nearby shore.
+> Te lleva a una orilla cercana.
+= A sinister, eerie tag.
+> Una etiqueta siniestra.
+= Slowly restores party hp.
+> Cura poco a poco al equipo.
+= A big, beautiful pearl.
+> Una perla grande y preciosa.
+= Soil from the Forest.
+> Tierra del bosque.
+= Soil from the Lake
+> Tierra del lago.

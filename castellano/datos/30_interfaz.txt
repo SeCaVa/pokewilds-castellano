@@ -1,0 +1,187 @@
+# Tipos, estadísticas, movimientos de campo y textos de menús.
+
+# --- Tipos (nombres oficiales) ---
+@ normal | Normal
+@ fire | Fuego
+@ water | Agua
+@ electric | Eléctrico
+@ ice | Hielo
+@ fighting | Lucha
+@ poison | Veneno
+@ ground | Tierra
+@ flying | Volador
+@ psychic | Psíquico
+@ bug | Bicho
+@ rock | Roca
+@ ghost | Fantasma
+@ dark | Siniestro
+@ dragon | Dragón
+@ steel | Acero
+@ fairy | Hada
+# "grass" es también un objeto (Hierba): en la pantalla de datos y el menú de ataques manda esto
+@ tipo:grass | Planta
+@ tipo:??? | ???
+
+# --- Categorías de ataque ---
+@ physical | Físico
+@ special | Especial
+@ status | Estado
+
+# --- Estadísticas ---
+@ attack | Ataque
+@ defense | Defensa
+@ speed | Velocidad
+@ special attack | At. Esp.
+@ special defense | Def. Esp.
+@ specialatk | At. Esp.
+@ specialdef | Def. Esp.
+@ spcl.atk | At. Esp.
+@ spcl.def | Def. Esp.
+@ accuracy | Precisión
+@ evasion | Evasión
+@ hp | PS
+♀ DEFENSA
+♀ VELOCIDAD
+♀ DEF. ESP.
+♀ PRECISIÓN
+♀ EVASIÓN
+
+# Recuadro de subida de nivel (máx. 8 caracteres)
+= SPEED
+> VELOCID.
+= SPCL.ATK
+> AT. ESP.
+= SPCL.DEF
+> DEF.ESP.
+
+# --- Movimientos de campo (submenú del POKéMON, máx. 11 caracteres) ---
+@ follow | Seguir
+@ power | Energía
+@ smash | Golpe Roca
+@ build | Construir
+@ paint | Pintar
+@ ride | Montar
+@ jump | Saltar
+# Nombres cortos solo para ese submenú (caben 10 letras)
+@ campo:headbutt | Cabezazo
+@ campo:teleport | Teletransp
+@ campo:smash | Golpe Roca
+
+# --- Submenú del POKéMON ---
+= STORE
+> GUARDAR
+= TAKE
+> SACAR
+= RELEASE
+> LIBERAR
+= NICKNAME
+> MOTE
+= STATS
+> DATOS
+= SWITCH
+> MOVER
+= DROP
+> SOLTAR
+= CANCEL
+> SALIR
+
+# --- Menú principal ---
+= ITEM
+> MOCHILA
+= MAP
+> MAPA
+= GUIDE
+> GUÍA
+= SAVE
+> GUARDAR
+
+# --- Menús Sí/No, Usar/Soltar, recogida ---
+= YES
+> SÍ
+= NO
+> NO
+= USE
+> USAR
+= GOT
+> TIENES
+= Need
+> Coste
+= OK
+> OK
+
+# --- Lista de POKéMON ---
+= Your POKéMON
+> Tus POKéMON
+= Stored POKéMON
+> POKéMON guardados
+= Choose a POKéMON.
+> Elige un POKéMON.
+= Move POKéMON
+> Mover POKéMON
+= where?
+> ¿adónde?
+= Move to where?
+> ¿Adónde lo mueves?
+= ABLE
+> APTO
+= NOT ABLE
+> NO APTO
+
+# --- Estados (abreviaturas de Oro/Plata) ---
+= PSN
+> ENV
+= PAR
+> PAR
+= FRZ
+> CON
+= SLP
+> DOR
+= BRN
+> QUE
+= FNT
+> DEB
+
+# --- Fabricación ---
+= CRAFT
+> FABRICAR
+= CREATE
+> CREAR
+= CRAFTING MENU
+> FABRICACIÓN
+= FOSSIL MENU
+> FÓSILES
+
+# --- Controles (pantalla de consejos) ---
+# (los espacios iniciales/finales del original se conservan solos)
+= - Controls -
+> - Controles -
+= TRAINER TIPS!
+> ¡CONSEJOS!
+= Arrows  - Movement
+> Flechas - Moverse
+= Z       - A button
+> Z       - Botón A
+= X       - B button
+> X       - Botón B
+= Enter   - Menu
+> Intro   - Menú
+= Hold X to run
+> Mantén X y corre
+
+# --- Menú de inicio ---
+# Las posiciones del cursor dependen de las columnas: NUEVA empieza donde NEW y CARGAR donde LOAD.
+= NEW    LOAD
+> NUEVA  CARGAR
+= Server IP
+> IP servidor
+# "File" y "Name" llevan un campo de texto justo detrás: máximo 4 letras.
+= File
+> Arch
+= World S M L XL XXL
+> Mundo P M G XG XXG
+= Name
+> Nom.
+= Player
+> Estilo
+= Go!
+> ¡Ya!

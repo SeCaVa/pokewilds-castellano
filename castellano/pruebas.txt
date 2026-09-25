@@ -1,0 +1,58 @@
+# Frases de ejemplo (en inglés, tal y como las construye el juego) para comprobar las reglas.
+# "ui:" = texto de menú.
+Enemy PIDGEY used TACKLE!
+PIKACHU used THUNDERSHOCK!
+Enemy RATTATA' hurt by poison!
+PIKACHU' ATTACK fell!
+Enemy RATTATA' DEFENSE rose!
+PIKACHU' SPEED went way up!
+PIKACHU' ACCURACY sharply fell!
+PIKACHU' SPECIAL ATTACK wonì go any higher!
+It' super- effective!
+Wild MR. MIME appeared!
+Go! CHIKORITA!
+Enemy GASTLY fainted!
+CYNDAQUIL gained 125 EXP. Points!
+CYNDAQUIL grew to level 12!
+CYNDAQUIL learned EMBER!
+CYNDAQUIL is trying to learn FLAME WHEEL.
+Replace TACKLE?
+What? CHIKORITA is evolving!
+Congratulations! Your CHIKORITA
+evolved into BAYLEEF!
+All right! PIDGEY was caught!
+RED' POKéMON gained 40 EXP. Points!
+Found 3 LOGS!
+Found a POKé BALL!
+Crafted 2 GREAT BALLS!
+PIKACHU is using CUT!
+PIKACHU used DIG! Press C and V to select terrain.
+Enemy ZUBAT is in love with enemy PIKACHU!
+It doesnì affect Enemy GASTLY!
+The SANDSTORM hits Enemy SANDSHREW!
+PIKACHU' hurt by WRAP!
+RED used POKé BALL!
+¡Genial! A POKéMON egg!
+¿Eh?              A bite!
+Not even a nibble...
+PIKACHU' rid of paralysis.
+Look! A PECHA berry!
+The rain stopped
+   TRAINER TIPS!  
+You can build a gate by building a door between two fences.
+ui:TACKLE
+ui:THUNDERPUNCH
+ui:POKÉ BALL
+ui:BLACK APRCN
+ui:GRASS
+ui:STATS
+ui:SWITCH
+ui:YES
+ui:A spray that repels weak POKéMON.
+ui:Cures <> of  POISON.
+ui:SPCL.ATK
+ui:NEW    LOAD
+ui:   - Controls -
+ui:FIELD MOVES
+ui:Picked up poké ball x3.
+ui:FIRE

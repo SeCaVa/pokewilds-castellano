@@ -1,0 +1,301 @@
+# Nombres de movimientos (fuente: PokeAPI, idioma es). Máx. 12 caracteres.
+# Formato: @ nombre interno del juego | nombre en castellano
+@ pound | Destructor
+@ karate chop | Golpe Kárate
+@ doubleslap | Doblebofetón
+@ comet punch | Puño Cometa
+@ mega punch | Megapuño
+@ pay day | Día de Pago
+@ fire punch | Puño Fuego
+@ ice punch | Puño Hielo
+@ thunderpunch | Puño Trueno
+@ scratch | Arañazo
+@ vicegrip | Agarre
+@ guillotine | Guillotina
+@ razor wind | V. Cortante
+@ swords dance | Danza Espada
+@ cut | Corte
+@ gust | Tornado
+@ wing attack | Ataque Ala
+@ whirlwind | Remolino
+@ fly | Vuelo
+@ bind | Atadura
+@ slam | Atizar
+@ vine whip | Látigo Cepa
+@ stomp | Pisotón
+@ double kick | Doble Patada
+@ mega kick | Megapatada
+@ jump kick | Patada Salto
+@ rolling kick | Patada Giro
+@ sand attack | Ataque Arena
+@ headbutt | Golpe Cabeza
+@ horn attack | Cornada
+@ fury attack | Ataque Furia
+@ horn drill | Perforador
+@ tackle | Placaje
+@ body slam | Golpe Cuerpo
+@ wrap | Constricción
+@ take down | Derribo
+@ thrash | Saña
+@ double edge | Doble Filo
+@ tail whip | Agitacola
+@ poison sting | Picotazo Ven
+@ twineedle | Doble Ataque
+@ pin missile | Pin Misil
+@ leer | Malicioso
+@ bite | Mordisco
+@ growl | Gruñido
+@ roar | Rugido
+@ sing | Canto
+@ supersonic | Supersónico
+@ sonicboom | Bomba Sónica
+@ disable | Anulación
+@ acid | Ácido
+@ ember | Ascuas
+@ flamethrower | Lanzallamas
+@ mist | Neblina
+@ water gun | Pistola Agua
+@ hydro pump | Hidrobomba
+@ surf | Surf
+@ ice beam | Rayo Hielo
+@ blizzard | Ventisca
+@ psybeam | Psicorrayo
+@ bubblebeam | Rayo Burbuja
+@ aurora beam | Rayo Aurora
+@ hyper beam | Hiperrayo
+@ peck | Picotazo
+@ drill peck | Pico Taladro
+@ submission | Sumisión
+@ low kick | Patada Baja
+@ counter | Contraataque
+@ seismic toss | Sísmico
+@ strength | Fuerza
+@ absorb | Absorber
+@ mega drain | Megaagotar
+@ leech seed | Drenadoras
+@ growth | Desarrollo
+@ razor leaf | Hoja Afilada
+@ solarbeam | Rayo Solar
+@ poisonpowder | Polvo Veneno
+@ stun spore | Paralizador
+@ sleep powder | Somnífero
+@ petal dance | Danza Pétalo
+@ string shot | Disp. Demora
+@ dragon rage | Furia Dragón
+@ fire spin | Giro Fuego
+@ thundershock | Impactrueno
+@ thunderbolt | Rayo
+@ thunder wave | Onda Trueno
+@ thunder | Trueno
+@ rock throw | Lanzarrocas
+@ earthquake | Terremoto
+@ fissure | Fisura
+@ dig | Excavar
+@ toxic | Tóxico
+@ confusion | Confusión
+@ psychic | Psíquico
+@ hypnosis | Hipnosis
+@ meditate | Meditación
+@ agility | Agilidad
+@ quick attack | Ataq. Rápido
+@ rage | Furia
+@ teleport | Teletransp.
+@ night shade | Tinieblas
+@ mimic | Mimético
+@ screech | Chirrido
+@ double team | Doble Equipo
+@ recover | Recuperación
+@ harden | Fortaleza
+@ minimize | Reducción
+@ smokescreen | Pantallahumo
+@ confuse ray | Rayo Confuso
+@ withdraw | Refugio
+@ defense curl | Rizo Defensa
+@ barrier | Barrera
+@ light screen | Pantalla Luz
+@ haze | Niebla
+@ reflect | Reflejo
+@ focus energy | Foco Energía
+@ bide | Venganza
+@ metronome | Metrónomo
+@ mirror move | Espejo
+@ selfdestruct | Autodestruc.
+@ egg bomb | Bomba Huevo
+@ lick | Lengüetazo
+@ smog | Polución
+@ sludge | Residuos
+@ bone club | Hueso Palo
+@ fire blast | Llamarada
+@ waterfall | Cascada
+@ clamp | Tenaza
+@ swift | Meteoros
+@ skull bash | Cabezazo
+@ spike cannon | Clavo Cañón
+@ constrict | Restricción
+@ amnesia | Amnesia
+@ kinesis | Kinético
+@ softboiled | Ovocuración
+@ hi jump kick | Pat. S. Alta
+@ glare | Deslumbrar
+@ dream eater | Comesueños
+@ poison gas | Gas Venenoso
+@ barrage | Bombardeo
+@ leech life | Chupavidas
+@ lovely kiss | Beso Amoroso
+@ sky attack | Ataque Aéreo
+@ transform | Transform.
+@ bubble | Burbuja
+@ dizzy punch | Puño Mareo
+@ spore | Espora
+@ flash | Destello
+@ psywave | Psicoonda
+@ splash | Salpicadura
+@ acid armor | Armad. Ácida
+@ crabhammer | Martillazo
+@ explosion | Explosión
+@ fury swipes | Golpes Furia
+@ bonemerang | Huesomerang
+@ rest | Descanso
+@ rock slide | Avalancha
+@ hyper fang | Hipercolmill
+@ sharpen | Afilar
+@ conversion | Conversión
+@ tri attack | Triataque
+@ super fang | Superdiente
+@ slash | Cuchillada
+@ substitute | Sustituto
+@ struggle | Forcejeo
+@ sketch | Esquema
+@ triple kick | Triplepatada
+@ thief | Ladrón
+@ spider web | Telaraña
+@ mind reader | Telépata
+@ nightmare | Pesadilla
+@ flame wheel | Rueda Fuego
+@ snore | Ronquido
+@ curse | Maldición
+@ flail | Azote
+@ conversion2 | Conversión 2
+@ aeroblast | Aerochorro
+@ cotton spore | Esporagodón
+@ reversal | Inversión
+@ spite | Rencor
+@ powder snow | Nieve Polvo
+@ protect | Protección
+@ mach punch | Ultrapuño
+@ scary face | Cara Susto
+@ faint attack | Finta
+@ sweet kiss | Beso Dulce
+@ belly drum | Tambor
+@ sludge bomb | Bomba Lodo
+@ mud slap | Bofetón Lodo
+@ octazooka | Pulpocañón
+@ spikes | Púas
+@ zap cannon | Electrocañón
+@ foresight | Profecía
+@ destiny bond | Mismodestino
+@ perish song | Canto Mortal
+@ icy wind | Viento Hielo
+@ detect | Detección
+@ bone rush | Ataque Óseo
+@ lock on | Fijar Blanco
+@ outrage | Enfado
+@ sandstorm | Torm. Arena
+@ giga drain | Gigadrenado
+@ endure | Aguante
+@ charm | Encanto
+@ rollout | Rodar
+@ false swipe | Falsotortazo
+@ swagger | Fanfarronear
+@ milk drink | Batido
+@ spark | Chispa
+@ fury cutter | Corte Furia
+@ steel wing | Ala de Acero
+@ mean look | Mal de Ojo
+@ attract | Atracción
+@ sleep talk | Sonámbulo
+@ heal bell | Cascabel
+@ return | Retribución
+@ present | Presente
+@ frustration | Frustración
+@ safeguard | Velo Sagrado
+@ pain split | Divide Dolor
+@ sacred fire | Fuegosagrado
+@ magnitude | Magnitud
+@ dynamicpunch | Puñodinámico
+@ megahorn | Megacuerno
+@ dragonbreath | Dragoaliento
+@ baton pass | Relevo
+@ encore | Otra Vez
+@ pursuit | Persecución
+@ rapid spin | Giro Rápido
+@ sweet scent | Dulce Aroma
+@ iron tail | Cola Férrea
+@ metal claw | Garra Metal
+@ vital throw | Llave Vital
+@ morning sun | Sol Matinal
+@ synthesis | Fotosíntesis
+@ moonlight | Luz Lunar
+@ hidden power | Poder Oculto
+@ cross chop | Tajo Cruzado
+@ twister | Ciclón
+@ rain dance | Danza Lluvia
+@ sunny day | Día Soleado
+@ crunch | Triturar
+@ mirror coat | Manto Espejo
+@ psych up | Más Psique
+@ extremespeed | Vel. Extrema
+@ ancientpower | Poder Pasado
+@ shadow ball | Bola Sombra
+@ future sight | Premonición
+@ rock smash | Golpe Roca
+@ whirlpool | Torbellino
+@ beat up | Paliza
+@ aqua jet | Acua Jet
+@ aura sphere | Esfera Aural
+@ aerial ace | Golpe Aéreo
+@ bullet punch | Puño Bala
+@ zen headbutt | Cabezazo Zen
+@ iron defense | Def. Férrea
+@ bug buzz | Zumbido
+@ feint attack | Finta
+@ dragon pulse | Pulso Dragón
+@ drain punch | Puño Drenaje
+@ hyper voice | Vozarrón
+@ nasty plot | Maquinación
+@ energy ball | Energibola
+@ astonish | Impresionar
+@ flash cannon | Foco Resplan
+@ will o wisp | Fuego Fatuo
+@ seed bomb | Bomba Germen
+@ night slash | Tajo Umbrío
+@ poison jab | Puya Nociva
+@ signal beam | Rayo Señal
+@ meteor mash | Puño Meteoro
+@ dragon claw | Garra Dragón
+@ iron head | Cabezahierro
+@ power gem | Joya de Luz
+@ air slash | Tajo Aéreo
+@ dark pulse | Pulso Umbrío
+@ earth power | Tierra Viva
+@ psycho cut | Psicocorte
+@ shadow claw | Garra Umbría
+@ play rough | Carantoña
+@ dragon energy | Dracoenergía
+@ thunder cage | Electrojaula
+@ crush grip | Agarrón
+@ dazzling gleam | Brillomágico
+@ draining kiss | Beso Drenaje
+@ struggle bug | Estoicismo
+@ fairy wind | Viento Feér.
+@ air cutter | Aire Afilado
+@ double hit | Doble Golpe
+@ shock wave | Onda Voltio
+@ brave bird | Pájaro Osado
+@ flare blitz | Envite Ígneo
+@ head charge | Ariete
+@ head smash | Testarazo
+@ light of ruin | Luz Aniquil.
+@ volt tackle | Placaje Eléc
+@ wild charge | Voltio Cruel
+@ wood hammer | Mazazo

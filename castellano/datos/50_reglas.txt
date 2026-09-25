@@ -1,0 +1,308 @@
+# Frases dinámicas (llevan nombres de POKéMON, ataques, objetos...).
+# "~" expresión regular Java sobre la frase COMPLETA en inglés; ">" plantilla.
+# Se prueban en orden: las más concretas deben ir antes que las genéricas.
+#   {2} grupo tal cual   {n2} traducido como nombre   {El2}/{el2} con artículo el/la
+#   {x2} " x"+cantidad   {?1:txt} txt si el grupo 1 existe (p.ej. "Enemy ")
+# El juego antepone "Enemy " al POKéMON rival; en castellano va detrás: "PIKACHU enemigo".
+
+# ---------------------------------------------------------------- estados
+~ ^(Enemy )?(.+)' hurt by poison!$
+> ¡El veneno resta PS a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+)' hurt by its burn!$
+> ¡La quemadura resta PS a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+)' hurt by the CURSE!$
+> ¡La MALDICIÓN resta PS a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+)' hurt by SPIKES!$
+> ¡Las PÚAS hieren a {2}{?1: enemigo}!
+~ ^(.+?)' hurt by (.+)!$
+> ¡{n2} hiere a {1}!
+~ ^(Enemy )?(.+?)' (.+) is no longer disabled!$
+> ¡{n3} de {2}{?1: enemigo} ya no está anulado!
+~ ^(Enemy )?(.+?)' (.+) is DISABLED!$
+> ¡{n3} de {2}{?1: enemigo} está ANULADO!
+~ ^(Enemy )?(.+?)' (.+) was disabled!$
+> ¡{n3} de {2}{?1: enemigo} fue anulado!
+~ ^(Enemy )?(.+) flinched!$
+> ¡{2}{?1: enemigo} retrocedió!
+~ ^(Enemy )?(.+) must recharge!$
+> ¡{2}{?1: enemigo} necesita recargarse!
+~ ^(Enemy )?(.+) is fast asleep!$
+> ¡{2}{?1: enemigo} está profundamente dormido!
+~ ^(Enemy )?(.+) woke up!$
+> ¡{2}{?1: enemigo} se despertó!
+~ ^(Enemy )?(.+) is fully paralyzed!$
+> ¡{2}{?1: enemigo} está paralizado! ¡No se puede mover!
+~ ^(Enemy )?(.+) is frozen solid!$
+> ¡{2}{?1: enemigo} está congelado!
+~ ^(Enemy )?(.+) thawed out!$
+> ¡{2}{?1: enemigo} se descongeló!
+~ ^(Enemy )?(.+) is confused!$
+> ¡{2}{?1: enemigo} está confuso!
+~ ^(Enemy )?(.+) snapped out of confusion!$
+> ¡{2}{?1: enemigo} ya no está confuso!
+~ ^(Enemy )?(.+) is in love with (enemy )?(.+)!$
+> ¡{2}{?1: enemigo} está enamorado de {4}{?3: enemigo}!
+~ ^(Enemy )?(.+)' infatuation kept it from attacking!$
+> ¡El amor impide que {2}{?1: enemigo} ataque!
+~ ^(Enemy )?(.+) was PARALYZED! It might not be able to attack!$
+> ¡{2}{?1: enemigo} está paralizado! ¡Quizás no pueda moverse!
+~ ^(Enemy )?(.+) was burned!$
+> ¡{2}{?1: enemigo} se quemó!
+~ ^(Enemy )?(.+) fell asleep!$
+> ¡{2}{?1: enemigo} se durmió!
+~ ^(Enemy )?(.+) was poisoned!$
+> ¡{2}{?1: enemigo} fue envenenado!
+~ ^(Enemy )?(.+)' frozen solid!$
+> ¡{2}{?1: enemigo} se congeló!
+~ ^(Enemy )?(.+)' badly poisoned!$
+> ¡{2}{?1: enemigo} fue gravemente envenenado!
+~ ^(Enemy )?(.+) became infatuated with (.+)!$
+> ¡{2}{?1: enemigo} se enamoró de {3}!
+~ ^(Enemy )?(.+) transformed into (.+)!$
+> ¡{2}{?1: enemigo} se transformó en {3}!
+
+# ---------------------------------------------------------------- estadísticas
+~ ^(.+?)' (.+) wonì go any higher!$
+> ¡{El2} de {1} no puede subir más!
+~ ^(.+?)' (.+) wonì go any lower!$
+> ¡{El2} de {1} no puede bajar más!
+~ ^(.+?)' stats went up!$
+> ¡Las características de {1} subieron!
+~ ^Enemy (.+?)' attack went way up!$
+> ¡El ATAQUE de {1} enemigo subió mucho!
+~ ^(.+?)' (.+) went way up!$
+> ¡{El2} de {1} subió mucho!
+~ ^(.+?)' (.+) went up!$
+> ¡{El2} de {1} subió!
+~ ^(.+?)' (.+) sharply fell!$
+> ¡{El2} de {1} bajó mucho!
+~ ^(.+?)' (.+) fell!$
+> ¡{El2} de {1} bajó!
+~ ^(Enemy )?(.+?)' (.+) rose!$
+> ¡{El3} de {2}{?1: enemigo} subió!
+
+# ---------------------------------------------------------------- ataques
+~ ^(Enemy )?(.+) dug a hole!$
+> ¡{2}{?1: enemigo} excavó un hoyo!
+~ ^(Enemy )?(.+) flew up high!$
+> ¡{2}{?1: enemigo} voló muy alto!
+~ ^(Enemy )?(.+) took in sunlight!$
+> ¡{2}{?1: enemigo} absorbió luz solar!
+~ ^(Enemy )?(.+) made a whirlwind!$
+> ¡{2}{?1: enemigo} provocó un remolino!
+~ ^(Enemy )?(.+) is glowing!$
+> ¡{2}{?1: enemigo} está brillando!
+~ ^It doesnì affect (Enemy )?(.+)!$
+> ¡No afecta a {2}{?1: enemigo}!
+~ ^(.+)' hit with recoil!$
+> ¡{1} sufrió daño por el retroceso!
+~ ^(Enemy )?(.+)' HP is full!$
+> ¡Los PS de {2}{?1: enemigo} están al máximo!
+~ ^(.+) regained health!$
+> ¡{1} recuperó PS!
+~ ^(.+) cut its own hp and$
+> ¡{1} redujo sus PS y
+~ ^put a CURSE on (Enemy )?(.+)!$
+> echó una MALDICIÓN a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+) can(?:ì|'t) escape now!$
+> ¡{2}{?1: enemigo} ya no puede escapar!
+~ ^(Enemy )?(.+) fled in fear!$
+> ¡{2}{?1: enemigo} huyó asustado!
+~ ^(Enemy )?(.+) was blown away!$
+> ¡{2}{?1: enemigo} salió volando!
+~ ^(Enemy )?(.+) fled from battle!$
+> ¡{2}{?1: enemigo} huyó del combate!
+~ ^(Enemy )?(.+)' covered by a veil!$
+> ¡Un velo místico protege a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+) is protected by SAFEGUARD!$
+> ¡VELO SAGRADO protege a {2}{?1: enemigo}!
+~ ^(Enemy )?(.+)' SAFEGUARD faded!$
+> ¡El VELO SAGRADO de {2}{?1: enemigo} se agotó!
+~ ^SPIKES scattered all around (enemy )?(.+?) ?!$
+> ¡Hay PÚAS esparcidas alrededor de {2}{?1: enemigo}!
+~ ^(Enemy )?(.+) blew away SPIKES!$
+> ¡{2}{?1: enemigo} se deshizo de las PÚAS!
+~ ^(Enemy )?(.+) was released by (enemy )?(.+)!$
+> ¡{2}{?1: enemigo} se liberó de {4}{?3: enemigo}!
+~ ^(.+) sketched (.+)!$
+> ¡{1} usó ESQUEMA y copió {n2}!
+~ ^(Enemy )?(.+) was trapped!$
+> ¡{2}{?1: enemigo} quedó atrapado!
+~ ^The SANDSTORM hits Enemy (.+)!$
+> ¡La TORMENTA DE ARENA golpea a {1} enemigo!
+~ ^The SANDSTORM hits (.+)!$
+> ¡La TORMENTA DE ARENA golpea a {1}!
+~ ^(Enemy )?(.+) used (.+)!$
+> ¡{2}{?1: enemigo} usó {n3}!
+
+# ---------------------------------------------------------------- inicio y fin del combate
+~ ^Wild (.+) appeared!$
+> ¡Un {1} salvaje apareció!
+~ ^Wild (.+) ran!$
+> ¡{1} salvaje huyó!
+~ ^Wild (.+) is angry!$
+> ¡{1} salvaje está enfadado!
+~ ^Wild (.+) is eating!$
+> ¡{1} salvaje está comiendo!
+~ ^Angry (.+) attacked!$
+> ¡{1} enfadado te ataca!
+~ ^Unhooked (.+) attacked!$
+> ¡{1} se soltó del anzuelo y te ataca!
+~ ^Go! (.+)!$
+> ¡Adelante, {1}!
+~ ^Enemy (.+) was revealed!$
+> ¡El enemigo era {1}!
+~ ^(.+) has ADRENALINE (\d+)!$
+> ¡{1} tiene ADRENALINA {2}!
+~ ^Enemy (.+) fainted!$
+> ¡{1} enemigo se debilitó!
+~ ^(.+) fainted!$
+> ¡{1} se debilitó!
+~ ^(.+)' POKéMON gained (\d+) EXP\. Points!$
+> ¡Los POKéMON de {1} ganaron {2} Puntos EXP.!
+~ ^(.+) gained (\d+) EXP\. Points!$
+> ¡{1} ganó {2} Puntos EXP.!
+~ ^(.+) grew to level (\d+)!$
+> ¡{1} subió al nivel {2}!
+~ ^(.+) is out of useable POKéMON!$
+> ¡A {1} no le quedan POKéMON!
+~ ^(.+) whited out!$
+> ¡{1} está fuera de combate!
+~ ^(.+) threw a ROCK\.$
+> {1} lanzó una PIEDRA.
+~ ^(.+) threw some BAIT\.$
+> {1} lanzó CEBO.
+
+# ---------------------------------------------------------------- captura
+~ ^All right! (.+) was caught!$
+> ¡Ya está! ¡{1} atrapado!
+~ ^Your party is full! (.+) was sent to the last safe place\.$
+> ¡Tu equipo está completo! {1} fue enviado al último lugar seguro.
+
+# ---------------------------------------------------------------- evolución y movimientos
+~ ^What\? (.+) is evolving!$
+> ¿Qué? ¡{1} está evolucionando!
+~ ^Congratulations! Your (.+)$
+> ¡Enhorabuena! Tu {1}
+~ ^evolved into (.+)!$
+> ¡ha evolucionado a {1}!
+~ ^Huh\? (.+) stopped evolving!$
+> ¿Eh? ¡{1} dejó de evolucionar!
+~ ^(.+) is trying to learn (.+)\.$
+> {1} intenta aprender {n2}.
+~ ^(.+) learned (.+)!$
+> ¡{1} aprendió {n2}!
+~ ^Replace (.+)\?$
+> ¿Sustituir {n1}?
+~ ^(.+) forgot (.+) and\.\.\.$
+> {1} olvidó {n2} y...
+~ ^Give up on learning (.+)\?$
+> ¿Renunciar a aprender {n1}?
+~ ^(.+) did not learn (.+)\.$
+> {1} no aprendió {n2}.
+~ ^(.+) is disabled!$
+> ¡{n1} está anulado!
+
+# ---------------------------------------------------------------- menú de POKéMON
+~ ^(.+) used DIG! Press C and V to select terrain\.$
+> ¡{1} usó EXCAVAR! Pulsa C y V para elegir el terreno.
+~ ^(.+) used BUILD! Press C and V to select tiles\.$
+> ¡{1} usó CONSTRUIR! Pulsa C y V para elegir la pieza.
+~ ^(.+) used PAINT! Press C and V to select designs\.$
+> ¡{1} usó PINTAR! Pulsa C y V para elegir el diseño.
+~ ^(.+) is using POWER! Power machinery by pressing Z\.$
+> ¡{1} está usando ENERGÍA! Pulsa Z para activar máquinas.
+~ ^(.+) is using (.+)!$
+> ¡{1} está usando {n2}!
+~ ^(.+) canì walk on land\.$
+> {1} no puede andar por tierra firme.
+~ ^(.+) canì be placed in water\.$
+> {1} no puede estar en el agua.
+~ ^(.+) must be placed in water\.$
+> {1} tiene que estar en el agua.
+~ ^(.+) is following you around!$
+> ¡{1} te sigue a todas partes!
+~ ^(.+) is trapped!$
+> ¡{1} está atrapado!
+~ ^Release (.+) to the wild\? This canì be undone!$
+> ¿Liberar a {1}? ¡No se puede deshacer!
+~ ^(.+) gained (\d+) hp!$
+> ¡{1} recuperó {2} PS!
+~ ^(.+)' rid of paralysis\.$
+> {1} ya no está paralizado.
+~ ^(.+) woke up\.$
+> {1} se despertó.
+~ ^(.+)' cured of poison\.$
+> {1} ya no está envenenado.
+~ ^(.+)' burn was healed\.$
+> {1} ya no tiene quemaduras.
+~ ^(.+) was defrosted\.$
+> {1} se descongeló.
+~ ^(.+) came to it' senses\.$
+> {1} volvió en sí.
+~ ^(.+)' health returned\.$
+> {1} recuperó la salud.
+~ ^(.+) saved the game!$
+> ¡{1} guardó la partida!
+~ ^Applied (.+)!$
+> ¡Has aplicado {n1}!
+~ ^(.+) canì be caught!$
+> ¡{1} no se puede capturar!
+
+# ---------------------------------------------------------------- mundo
+~ ^Found (\S+) (.+)!$
+> ¡Has encontrado {n2}{x1}!
+~ ^Crafted (\d+) (.+)!$
+> ¡Has fabricado {n2}{x1}!
+~ ^Look! An? ?(.+) berry!$
+> ¡Mira! ¡Una BAYA {n1}!
+~ ^(.+) got (?:a|an) (.+)!$
+> ¡{1} obtuvo {n2}!
+~ ^(.+) came out of its EGG!$
+> ¡{1} salió del HUEVO!
+~ ^(.+) must be fully evolved to CUT large trees\.$
+> {1} tiene que estar totalmente evolucionado para CORTAR árboles grandes.
+~ ^Add (.+) to your party\?$
+> ¿Añadir a {1} a tu equipo?
+~ ^(.+) looks like it' holding something\.\.\.$
+> Parece que {1} lleva algo...
+~ ^(.+) gave you (.+)!$
+> ¡{1} te dio {n2}!
+~ ^(.+) seems aggressive\.\.\. it may attack if provoked!$
+> {1} parece agresivo... ¡Podría atacar si lo provocas!
+~ ^(.*) A POKéMON egg!$
+> {1} ¡Un HUEVO de POKéMON!
+~ ^(.+) is enjoying itself\.$
+> {1} se lo está pasando bien.
+~ ^(.+) seems uncomfortable in this environment\. ?$
+> {1} parece incómodo en este entorno.
+~ ^(.+) seems interested in (.+)\.$
+> {1} parece interesado en {2}.
+~ ^(.+) seems happy\. ?$
+> {1} parece feliz.
+~ ^(.+) seems friendly\. ?$
+> {1} parece amistoso.
+~ ^(.+) powered up the machine!$
+> ¡{1} puso en marcha la máquina!
+~ ^(.+) received an EGG\.$
+> {1} recibió un HUEVO.
+~ ^(.+) received (.+)!$
+> ¡{1} recibió {n2}!
+~ ^A (.+) doll\. Cute!$
+> Un muñeco de {1}. ¡Qué mono!
+~ ^(.*)A bite!$
+> {1}¡Algo ha picado!
+~ ^Not even a nibble(.*)$
+> Ni un mordisco{1}
+~ ^A voice whispers from within\.\.\. (\d+)\.\.\. bring (\d+)\.\.\.$
+> Una voz susurra desde dentro... {1}... trae {2}...
+~ ^(.+) attacked!$
+> ¡{1} te ataca!
+
+# ---------------------------------------------------------------- menús (texto que no va en caja)
+% ^\s*TRAINER TIPS!\s*(.+)$
+>     ¡CONSEJOS!      {t1}
+% ^Picked up (.+) x(\d+)\.$
+> Recogido {n1} x{2}.
+% ^Requires: (.+)$
+> Requiere {n1}

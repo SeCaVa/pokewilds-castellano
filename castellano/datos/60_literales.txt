@@ -1,0 +1,178 @@
+# Literales que EsPatcher reemplaza directamente dentro de los .class.
+# Se usan cuando el juego manipula el texto antes de mostrarlo (p.ej. sustituye la
+# palabra POKEMON por el mote del POKéMON), así que la traducción debe conservar
+# el marcador POKEMON tal cual.
+# "$" literal exacto del código / ">" nuevo valor.
+
+# --- Comentarios del POKéMON que te acompaña (POKEMON = su mote) ---
+$ POKEMON admires the fresh plants.
+> POKEMON admira las plantas frescas.
+$ POKEMON blends into the night.
+> POKEMON se funde con la noche.
+$ POKEMON collects snow.
+> POKEMON recoge nieve.
+$ POKEMON darts around.
+> POKEMON corretea de un lado a otro.
+$ POKEMON digs into the sand.
+> POKEMON escarba en la arena.
+$ POKEMON dislikes the heat.
+> A POKEMON no le gusta el calor.
+$ POKEMON does not take a liking to the weather.
+> A POKEMON no le gusta este tiempo.
+$ POKEMON doesn't want me to go too far.
+> POKEMON no quiere que me aleje demasiado.
+$ POKEMON enjoys the view.
+> POKEMON disfruta de las vistas.
+$ POKEMON feels comfortable under the snow.
+> POKEMON está a gusto bajo la nieve.
+$ POKEMON feels sunlight on its back.
+> POKEMON siente el sol en la espalda.
+$ POKEMON feels the powdery snow.
+> POKEMON toca la nieve en polvo.
+$ POKEMON has a brain freeze.
+> A POKEMON le duele la cabeza del frío.
+$ POKEMON is carefully eyeing you.
+> POKEMON te observa con atención.
+$ POKEMON is chittering away.
+> POKEMON no para de parlotear.
+$ POKEMON is eager to help.
+> POKEMON está deseando ayudar.
+$ POKEMON is enjoying the breeze.
+> POKEMON disfruta de la brisa.
+$ POKEMON is enjoying the flowers.
+> POKEMON disfruta de las flores.
+$ POKEMON is having trouble with the sand.
+> POKEMON tiene problemas con la arena.
+$ POKEMON is impressed by the landscape.
+> El paisaje impresiona a POKEMON.
+$ POKEMON is keeping at your pace.
+> POKEMON sigue tu ritmo.
+$ POKEMON is looking wary.
+> POKEMON parece receloso.
+$ POKEMON is moving easily in the sand.
+> POKEMON se mueve con soltura por la arena.
+$ POKEMON is on the lookout.
+> POKEMON está alerta.
+$ POKEMON is scouting for ghosts.
+> POKEMON vigila por si hay fantasmas.
+$ POKEMON is shivering.
+> POKEMON está tiritando.
+$ POKEMON is soaking up the sun.
+> POKEMON está tomando el sol.
+$ POKEMON is stretching.
+> POKEMON se está estirando.
+$ POKEMON is submerged in sand.
+> POKEMON está enterrado en la arena.
+$ POKEMON is surveying the area.
+> POKEMON inspecciona la zona.
+$ POKEMON is thinking hard.
+> POKEMON está pensando mucho.
+$ POKEMON keeps away from the sunlight.
+> POKEMON se aparta del sol.
+$ POKEMON looks confused.
+> POKEMON parece confundido.
+$ POKEMON looks happy.
+> POKEMON parece contento.
+$ POKEMON looks sleepy.
+> POKEMON parece tener sueño.
+$ POKEMON looks towards the sky.
+> POKEMON mira hacia el cielo.
+$ POKEMON loves the hot sun.
+> A POKEMON le encanta el sol abrasador.
+$ POKEMON makes its way across the path.
+> POKEMON avanza por el camino.
+$ POKEMON makes its way across the sand.
+> POKEMON avanza por la arena.
+$ POKEMON nervously follows.
+> POKEMON te sigue con nerviosismo.
+$ POKEMON notices scattered papers.
+> POKEMON ve papeles desperdigados.
+$ POKEMON notices the crashing waves.
+> POKEMON se fija en el romper de las olas.
+$ POKEMON notices the frigid air.
+> POKEMON nota el aire gélido.
+$ POKEMON notices you.
+> POKEMON se fija en ti.
+$ POKEMON passes the time.
+> POKEMON pasa el rato.
+$ POKEMON picks up a signal.
+> POKEMON capta una señal.
+$ POKEMON pieces events together.
+> POKEMON ata cabos.
+$ POKEMON plays in the sand.
+> POKEMON juega en la arena.
+$ POKEMON reaches for a branch.
+> POKEMON intenta alcanzar una rama.
+$ POKEMON shakes its head.
+> POKEMON sacude la cabeza.
+$ POKEMON shakes sand off.
+> POKEMON se sacude la arena.
+$ POKEMON shutters from the air.
+> POKEMON tiembla por el aire.
+$ POKEMON spots pretty rocks.
+> POKEMON ve unas piedras bonitas.
+$ POKEMON spots shells in the sand.
+> POKEMON ve conchas en la arena.
+$ POKEMON stares into ice crystals.
+> POKEMON contempla los cristales de hielo.
+$ POKEMON stares into the treetops.
+> POKEMON contempla las copas de los árboles.
+$ POKEMON sticks to the waves.
+> POKEMON no se separa de las olas.
+$ POKEMON takes in the cold environment.
+> POKEMON se empapa del ambiente frío.
+$ POKEMON takes in the natural scent.
+> POKEMON respira el aroma natural.
+$ POKEMON takes in the sea's aroma.
+> POKEMON respira el aroma del mar.
+$ POKEMON wants to mountain climb.
+> POKEMON quiere escalar montañas.
+$ POKEMON wants to play.
+> POKEMON quiere jugar.
+$ POKEMON wants to soar the skies.
+> POKEMON quiere surcar los cielos.
+$ POKEMON wants to spar.
+> POKEMON quiere entrenar.
+$ POKEMON watches by the cliffside.
+> POKEMON vigila junto al acantilado.
+$ POKEMON watches its step.
+> POKEMON mira dónde pisa.
+$ What? POKEMON hugs you!
+> ¿Qué? ¡POKEMON te abraza!
+$ Wow! POKEMON blends in with the environment!
+> ¡Hala! ¡POKEMON se camufla con el entorno!
+$ [Steel Type] is hot to the touch.
+> ¡Quema al tacto!
+
+# --- Exclamaciones sueltas (se concatenan con otras frases) ---
+$ Neat!
+> ¡Genial!
+$ Hey!
+> ¡Eh!
+$ Look!
+> ¡Mira!
+$ Wow!
+> ¡Hala!
+$ Huh?
+> ¿Eh?
+$ Hmm...
+> Mmm...
+$ Oh?
+> ¿Oh?
+# (rellenadas a 18 caracteres = una línea de la caja de texto; \s = espacio)
+$ Whoa!\s\s\s\s\s\s\s\s\s\s\s\s\s
+> ¡Anda!\s\s\s\s\s\s\s\s\s\s\s\s
+$ Oh!\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+> ¡Oh!\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+$ Huh?\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+> ¿Eh?\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+$ What!?\s\s\s\s\s\s\s\s\s\s\s\s
+> ¡¿Qué?!\s\s\s\s\s\s\s\s\s\s\s
+
+# --- Diálogos de Windows ---
+$ Save your progress?
+> ¿Guardar la partida?
+$ A save file with the same name already exists - overwrite?
+> Ya existe una partida con ese nombre. ¿Sobrescribirla?
+$ Problem with save!
+> ¡Problema con la partida!

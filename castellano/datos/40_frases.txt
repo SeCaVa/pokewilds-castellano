@@ -1,0 +1,345 @@
+# Frases fijas que aparecen en las cajas de texto.
+# "=" original exacto (los espacios sobrantes al principio/final se ignoran) / ">" traducción.
+# En el original, "'" se dibuja como 's y "ì" como 't (p.ej. "Canì" = "Can't").
+
+# --- Combate ---
+= A wave of psychic power unleashes!
+> ¡Se desata una ola de poder psíquico!
+= The ground is shaking violently!
+> ¡El suelo tiembla con violencia!
+= It hurt itself in confusion!
+> ¡Está tan confuso que se hirió a sí mismo!
+= The attack missed!
+> ¡El ataque falló!
+= Critical hit!
+> ¡Un golpe crítico!
+= But it failed!
+> ¡Pero falló!
+= But nothing happened.
+> Pero no pasó nada.
+= It' super- effective!
+> ¡Es muy eficaz!
+= It' not very effective...
+> No es muy eficaz...
+= It' holding your leg! You canì flee!
+> ¡Te tiene agarrado de la pierna! ¡No puedes huir!
+= Waiting for server...
+> Esperando al servidor...
+= Got away safely!
+> ¡Escapaste sin problemas!
+= Dev note - Invalid item.
+> Nota de desarrollo - Objeto no válido.
+= Dev note - invalid item.
+> Nota de desarrollo - Objeto no válido.
+= Canì escape!
+> ¡No puedes escapar!
+= Player POKéMON' REFLECT faded!
+> ¡El REFLEJO de tu equipo se agotó!
+= Enemy POKéMON' REFLECT faded!
+> ¡El REFLEJO del enemigo se agotó!
+= Player POKéMON' LIGHT SCREEN faded!
+> ¡La PANTALLA LUZ de tu equipo se agotó!
+= Enemy POKéMON' LIGHT SCREEN faded!
+> ¡La PANTALLA LUZ del enemigo se agotó!
+= A downpour started!
+> ¡Empezó a llover a cántaros!
+= The sunlight got bright!
+> ¡El sol brilla con fuerza!
+= A SANDSTORM brewed!
+> ¡Se levantó una TORMENTA DE ARENA!
+= The rain stopped
+> Dejó de llover.
+= The sunlight faded.
+> El sol dejó de brillar tanto.
+= The SANDSTORM subsided.
+> La TORMENTA DE ARENA amainó.
+= Rain continues to fall.
+> Sigue lloviendo.
+= The sunlight is strong.
+> El sol brilla con fuerza.
+= The SANDSTORM rages.
+> La TORMENTA DE ARENA arrecia.
+= Which move should be forgotten?
+> ¿Qué movimiento debería olvidar?
+= And one... two... three... POOF!
+> Y uno... dos... tres... ¡PUF!
+= Weary from battle, you flee to the last safe place...
+> Agotado por el combate, huyes al último lugar seguro...
+= MEWTWO fled... it may return when it' had time to recover.
+> MEWTWO huyó... Puede que vuelva cuando se haya recuperado.
+
+# --- Captura ---
+= You missed the POKéMON!
+> ¡Fallaste! ¡No le diste al POKéMON!
+= Darn! The POKéMON broke free!
+> ¡Oh, no! ¡El POKéMON se ha escapado!
+= Aww! It appeared to be caught!
+> ¡Vaya! ¡Parecía que lo habías atrapado!
+= Shoot! It was so close, too!
+> ¡Rayos! ¡Casi lo consigues!
+= Your party is full! You will need to DROP some of them in order to catch more.
+> ¡Tu equipo está completo! Tendrás que SOLTAR a alguno para poder capturar más.
+= Not enough room in your party!
+> ¡No hay sitio en tu equipo!
+
+# --- Los Regis (al capturarlos) ---
+= Cold ... very cold ... too cold ... but ... even with heat ... it lasts forever ...
+> Frío ... mucho frío ... demasiado frío ... pero ... incluso con calor ... dura para siempre ...
+= Simple stones ... such a creation ... each one so unique ... but only stones ... even in the head ...
+> Simples piedras ... qué creación ... cada una tan única ... pero solo piedras ... incluso en la cabeza ...
+= Metals ... from underground ... so tough ... so flexible ... yet it' so old ... it has an unearthly presence ...
+> Metales ... del subsuelo ... tan duros ... tan flexibles ... y tan antiguos ... tiene una presencia sobrenatural ...
+= Such a sad sight ... my child ... its my fault ... incomplete ... just a dragon' head ... but you are still ... so strong ...
+> Qué triste imagen ... hijo mío ... es culpa mía ... incompleto ... solo una cabeza de dragón ... pero aun así eres ... tan fuerte ...
+= Such a sad sight ... my child ... your electricity ... restrained ... but ... you are still ... so strong ...
+> Qué triste imagen ... hijo mío ... tu electricidad ... contenida ... pero ... aun así eres ... tan fuerte ...
+= My work is ... complete...
+> Mi obra está ... completa...
+= I desire more ...
+> Deseo más ...
+= The battlefield quakes under REGIGIGAS' presence!
+> ¡El campo de batalla tiembla ante la presencia de REGIGIGAS!
+
+# --- Combates especiales ---
+= MEGA GENGAR attacked!
+> ¡MEGA GENGAR te ataca!
+= Humans...
+> Humanos...
+= They cared nothing for me...
+> Nunca les importé nada...
+= From the moment I first opened my eyes, they have sought to control me...
+> Desde el momento en que abrí los ojos, solo han querido controlarme...
+= But no more.
+> Pero se acabó.
+= Why are you here?
+> ¿Por qué estás aquí?
+= You seek to control me, just like the others.
+> Quieres controlarme, igual que los demás.
+= An oppressive force surrounds you...
+> Una fuerza opresiva te rodea...
+= MEWTWO unleashes its full power!
+> ¡MEWTWO libera todo su poder!
+
+# --- Menú de POKéMON ---
+= It wonì have any effect.
+> No tendrá ningún efecto.
+= You need at least 1 POKéMON in your party.
+> Necesitas al menos 1 POKéMON en tu equipo.
+= You need at least 1 healthy POKéMON in your party.
+> Necesitas al menos 1 POKéMON sano en tu equipo.
+= Canì store a Pokemon that' using SURF.
+> No puedes guardar un POKéMON que está usando SURF.
+= Move to storage?
+> ¿Guardarlo en el almacén?
+= Your party is full!
+> ¡Tu equipo está completo!
+= Add to your party?
+> ¿Añadirlo a tu equipo?
+= Canì place here - something is in the way.
+> No puedes dejarlo aquí, hay algo en medio.
+= Canì leave Pokemon in a dangerous area.
+> No puedes dejar un POKéMON en una zona peligrosa.
+= Canì do this here!
+> ¡Aquí no puedes hacer eso!
+= Canì SURF here - something is in the way.
+> No puedes hacer SURF aquí, hay algo en medio.
+= Canì SURF on land.
+> No puedes hacer SURF en tierra firme.
+= Teleport to this location?
+> ¿Teletransportarte a este lugar?
+
+# --- Mochila ---
+= Something is in the way!
+> ¡Hay algo en medio!
+= Not enough room!
+> ¡No hay sitio!
+= Canì use this in a dangerous area!
+> ¡No puedes usarlo en una zona peligrosa!
+= Canì sleep on harsh terrain!
+> ¡No puedes dormir en un terreno tan duro!
+= Canì use this while Pokémon are nearby!
+> ¡No puedes usarlo con POKéMON cerca!
+= Return to the shore?
+> ¿Volver a la orilla?
+= Press Z to cast the line.
+> Pulsa Z para lanzar el sedal.
+= Press Z to fertilize saplings and small trees.
+> Pulsa Z para abonar brotes y árboles pequeños.
+= Press Z to plant seeds.
+> Pulsa Z para plantar semillas.
+
+# --- Menú de inicio ---
+= Welcome to host mode!           WASD moves camera     Q and E zooms
+> ¡Bienvenido al modo anfitrión! WASD mueve la cámara y Q y E hacen zoom.
+= Generating... please wait...
+> Generando... espera, por favor...
+= Generating map...
+> Generando el mapa...
+
+# --- Exploración ---
+= The sun is scorching hot! This region feels dangerous...
+> ¡El sol abrasa! Esta región parece peligrosa...
+= Going further will take you to a new area... keep going?
+> Si sigues avanzando llegarás a una zona nueva... ¿Continuar?
+= The effects of REPEL wore off.
+> Se acabó el efecto del REPELENTE.
+= Canì build stairs underground.
+> No puedes construir escaleras bajo tierra.
+= This house needs a completed roof.
+> Esta casa necesita un tejado completo.
+= This house needs to be taller.
+> Esta casa tiene que ser más alta.
+= A box indoors must be emptied before this can be CUT.
+> Hay que vaciar la caja de dentro antes de usar CORTE aquí.
+= The box must be emptied before it can be CUT.
+> Hay que vaciar la caja antes de usar CORTE.
+= You feel a presence around you...
+> Sientes una presencia a tu alrededor...
+= Press enter to set
+> Pulsa Intro para confirmar
+= Keep changes?
+> ¿Guardar los cambios?
+= Press Enter to set text
+> Pulsa Intro para confirmar el texto
+
+# --- Objetos del mundo ---
+= A statue of an ancient Pokemon.
+> Una estatua de un POKéMON antiguo.
+= Give it a RageCandyBar?
+> ¿Darle un CARAMELO FURIA?
+= The statue responded to the RageCandyBar...
+> La estatua ha reaccionado al CARAMELO FURIA...
+= The awakened DARMANITAN attacked!
+> ¡El DARMANITAN despierto te ataca!
+= It smells pretty bad... surely it will come in handy!
+> Huele bastante mal... ¡seguro que será útil!
+= Mmm... feels soft and warm.
+> Mmm... es suave y calentito.
+= It' a piece of it' shell... feels nice and sturdy.
+> Es un trozo de su caparazón... parece muy resistente.
+= 69... Nice...
+> 69... Nice...
+= The spirits entered into the keystone...
+> Los espíritus entraron en la piedra angular...
+= Use life force?
+> ¿Usar FUERZA VITAL?
+= Set label text?
+> ¿Escribir el texto del cartel?
+= The text is too faded to make out...
+> El texto está demasiado borroso para leerlo...
+= It' not responding...
+> No responde...
+= No power... an ELECTRIC type could get it running.
+> No tiene energía... Un tipo ELÉCTRICO podría ponerlo en marcha.
+= Vraahhbrbrbr!
+> ¡Vraahhbrbrbr!
+= Yulaaah!
+> ¡Yulaaah!
+= Jakiih!
+> ¡Jakiih!
+= The doll became animated... and attacked!
+> El muñeco cobró vida... ¡y te ataca!
+= Canì use this while using a Field Move.
+> No puedes usarlo mientras usas un movimiento de campo.
+= Arrow left or right to change clothes color.
+> Pulsa izquierda o derecha para cambiar el color de la ropa.
+= Arrow left or right to change appearance.
+> Pulsa izquierda o derecha para cambiar de aspecto.
+= It' locked...
+> Está cerrado con llave...
+= Open using the SECRET KEY?
+> ¿Abrir con la LLAVE SECRETA?
+= The door opened!
+> ¡La puerta se abrió!
+= A hidden switch! Press it?
+> ¡Un interruptor oculto! ¿Pulsarlo?
+= Do you want to sleep?
+> ¿Quieres dormir?
+= Remove torch?
+> ¿Quitar la antorcha?
+= A Rock-type POKéMON can break this using ROCK SMASH.
+> Un POKéMON de tipo ROCA puede romperla con GOLPE ROCA.
+= Want to SURF?
+> ¿Quieres hacer SURF?
+= The tree became agitated and attacked!
+> ¡El árbol se agitó y te ataca!
+= Pick it up?
+> ¿Recogerlo?
+= A voice whispers from within... bring 69... Nice...
+> Una voz susurra desde dentro... trae 69... Nice...
+
+# --- Consejos (carteles y Guía) ---
+= Be wary of taking EGGS near wild POKéMON. Angry parents may attack!
+> Cuidado al coger HUEVOS cerca de POKéMON salvajes. ¡Sus padres podrían atacarte!
+= Build fences to prevent your POKéMON from wandering off when you let them out of their POKéBALL.
+> Construye vallas para que tus POKéMON no se escapen cuando los saques de su POKé BALL.
+= POKéMON are happier when located in their natural habitat. If they are happy enough, they may give you items!
+> Los POKéMON son más felices en su hábitat natural. ¡Si están muy contentos, puede que te den objetos!
+= POKéMON will lay EGGS when located near a compatible mate.
+> Los POKéMON ponen HUEVOS si tienen cerca una pareja compatible.
+= Sleeping in a bed will over time cure your POKéMON' status conditions.
+> Dormir en una cama cura con el tiempo los problemas de estado de tus POKéMON.
+= Stand still while holding X to stop using a Field Move.
+> Quédate quieto y mantén X para dejar de usar un movimiento de campo.
+= Use the escape rope to return to the nearest location on the shore.
+> Usa la CUERDA HUIDA para volver a la orilla más cercana.
+= Using your sleeping bag will slowly restore your party' hp.
+> Usar el saco de dormir restaura poco a poco los PS de tu equipo.
+= You can build a door between two house tiles to build a back or side door to your house.
+> Puedes poner una puerta entre dos paredes para hacer una puerta trasera o lateral en tu casa.
+= You can build a door between two roof tiles to build a back door to your house.
+> Puedes poner una puerta entre dos tejados para hacer una puerta trasera en tu casa.
+= You can build a gate by building a door between two fences.
+> Puedes hacer una cancela poniendo una puerta entre dos vallas.
+= You can craft items at a campfire. Craft POKéBALLS using Apricorns.
+> Puedes fabricar objetos en una hoguera. Haz POKé BALLS con BONGURIS.
+= You can craft POKéBALLS out of Apricorns at a campfire.
+> Puedes fabricar POKé BALLS con BONGURIS en una hoguera.
+= You can plant Miracle Seeds and Apricorns to grow grass and trees.
+> Planta SEMILLAS MILAGRO y BONGURIS para que crezcan hierba y árboles.
+= Your POKéMON will be happier if fenced in and located near a shelter.
+> Tus POKéMON estarán más contentos dentro de una valla y cerca de un refugio.
+= Ghosts may appear in the woods at night. A campfire will ward them off.
+> De noche pueden aparecer fantasmas en el bosque. Una hoguera los mantendrá alejados.
+= Grass types know CUT. Use CUT on trees and tall grass to get building materials.
+> Los tipo PLANTA saben CORTE. Úsalo en árboles y hierba alta para conseguir materiales.
+= Use CUT on trees and tall grass to get building materials.
+> Usa CORTE en árboles y hierba alta para conseguir materiales de construcción.
+= Use CUT on buildings to remove them.
+> Usa CORTE en los edificios para quitarlos.
+= If you white out during battle, you will return to the last place you used a sleeping bag.
+> Si pierdes un combate, volverás al último lugar donde usaste el saco de dormir.
+= Sleeping indoors will restore hp twice as fast as sleeping outdoors.
+> Dormir bajo techo restaura los PS el doble de rápido que al aire libre.
+= Bug types drop Silky Thread, Flying types drop Soft Feather.
+> Los tipo BICHO sueltan HILO SEDOSO y los VOLADOR, PLUMA SUAVE.
+= Collect Soft Feather and Silky Thread to make a soft bed for your home.
+> Reúne PLUMA SUAVE e HILO SEDOSO para hacer una cama cómoda para tu casa.
+= Eggs must be carried to hatch. RIDE does count while FLY does not.
+> Los HUEVOS solo eclosionan si los llevas contigo. MONTAR cuenta, VUELO no.
+= Fighting-types know BUILD. Use CUT buildings to remove them.
+> Los tipo LUCHA saben CONSTRUIR. Usa CORTE en los edificios para quitarlos.
+= Rocks types know SMASH. Use it on boulders to collect rocks. Rocks respawn daily.
+> Los tipo ROCA saben GOLPE ROCA. Úsalo en rocas para conseguir piedras. Las rocas reaparecen cada día.
+
+# --- Títulos de la Guía (el menú los muestra en mayúsculas) ---
+@ field moves | Mov. Campo
+@ crafting | Fabricar
+@ fainting | Debilitarse
+@ ghosts | Fantasmas
+@ building 1 | Construir 1
+@ building 2 | Construir 2
+@ breeding 3 | Crianza
+@ habitats 1 | Hábitats 1
+@ habitats 2 | Hábitats 2
+@ habitats 3 | Hábitats 3
+@ wilds eggs | Huevos
+@ back doors | Puertas
+@ healing 1 | Curación 1
+@ healing 2 | Curación 2
+@ healing 3 | Curación 3
+@ plants | Plantas
+@ gates | Cancelas
+@ eggs | Eclosión
+@ soft bed 1 | Cama 1
+@ soft bed 2 | Cama 2

@@ -1,3 +1,17 @@
+> ## 🇪🇸 PokeWilds en castellano
+>
+> Este repositorio es un fork de **[SheerSt/pokewilds](https://github.com/SheerSt/pokewilds)** que añade una
+> **traducción no oficial al castellano (España)** de PokeWilds v0.8.11. PokeWilds es obra de **SheerSt** y de
+> sus colaboradores; todo el mérito del juego es suyo. Este fork no redistribuye el juego: la traducción se
+> aplica como un parche sobre tu propia copia descargada del [release oficial](https://github.com/SheerSt/pokewilds/releases).
+>
+> - Instrucciones, funcionamiento y cómo corregir textos: **[castellano/README.md](castellano/README.md)**
+> - Los errores de traducción, repórtalos en este fork; los errores del juego, en el [repositorio original](https://github.com/SheerSt/pokewilds/issues).
+>
+> El resto de este README es el original del proyecto, sin cambios.
+
+---
+
 # PokeWilds
 
 ![PokeWilds](https://github.com/SheerSt/pokewilds/blob/main/github1.png)
