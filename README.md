@@ -1,3 +1,13 @@
+> **🇬🇧 English:** this is a fork of **[SheerSt/pokewilds](https://github.com/SheerSt/pokewilds)** that adds an
+> **unofficial Spanish (Spain) translation** of PokeWilds v0.8.11. All credit for the game goes to SheerSt and
+> the PokeWilds contributors. This fork does **not** redistribute the game: the translation is a patch that
+> players apply to their own copy of the official release. Everything added lives in the
+> [`castellano/`](castellano/) folder; no original asset or `i18n/` file was modified. Since v0.8.11 does
+> not load `i18n/`, the patch hooks the displayed text at runtime instead, leaving internal names untouched,
+> so saves and mods keep working.
+>
+> **[⬇ Jump to the original PokeWilds README](#original-readme)**
+
 # 🇪🇸 PokeWilds en castellano
 
 Traducción **no oficial** al castellano (España) de **[PokeWilds](https://github.com/SheerSt/pokewilds) v0.8.11**.
@@ -90,7 +100,9 @@ en [castellano/README.md](castellano/README.md).
 
 ---
 
-> **A continuación, el README original del proyecto, sin cambios.**
+<a id="original-readme"></a>
+
+> **A continuación, el README original del proyecto, sin cambios.** / *Below: the original project README, unchanged.*
 
 # PokeWilds
 
