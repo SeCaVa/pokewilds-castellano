@@ -1,16 +1,96 @@
-> ## 🇪🇸 PokeWilds en castellano
->
-> Este repositorio es un fork de **[SheerSt/pokewilds](https://github.com/SheerSt/pokewilds)** que añade una
-> **traducción no oficial al castellano (España)** de PokeWilds v0.8.11. PokeWilds es obra de **SheerSt** y de
-> sus colaboradores; todo el mérito del juego es suyo. Este fork no redistribuye el juego: la traducción se
-> aplica como un parche sobre tu propia copia descargada del [release oficial](https://github.com/SheerSt/pokewilds/releases).
->
-> - Instrucciones, funcionamiento y cómo corregir textos: **[castellano/README.md](castellano/README.md)**
-> - Los errores de traducción, repórtalos en este fork; los errores del juego, en el [repositorio original](https://github.com/SheerSt/pokewilds/issues).
->
-> El resto de este README es el original del proyecto, sin cambios.
+# 🇪🇸 PokeWilds en castellano
+
+Traducción **no oficial** al castellano (España) de **[PokeWilds](https://github.com/SheerSt/pokewilds) v0.8.11**.
+
+PokeWilds es obra de **[SheerSt](https://github.com/SheerSt)** y de sus colaboradores; todo el mérito del juego
+es suyo. Este repositorio es un fork del original que solo añade la traducción, dentro de la carpeta
+[`castellano/`](castellano/). **No incluye ni redistribuye el juego**: la traducción se aplica como un parche
+sobre tu propia copia descargada del [release oficial](https://github.com/SheerSt/pokewilds/releases).
+
+- Los errores de **traducción** repórtalos en este fork.
+- Los errores del **juego** repórtalos en el [repositorio original](https://github.com/SheerSt/pokewilds/issues).
+
+## Qué está traducido
+
+- Todos los mensajes del juego: combates, capturas, evoluciones, exploración, construcción, consejos y
+  la Guía.
+- Menús: principal, POKéMON, datos, mochila, fabricación, controles e inicio de partida.
+- Nombres de los movimientos (299), objetos, tipos y estadísticas, con los nombres oficiales en castellano.
+- Imágenes que llevan texto: pantalla de datos, menú de combate (LUCHA / BOLSA / HUIR), barras de PS y
+  pestañas de la mochila.
+- Letras nuevas en la fuente del juego: á é í ó ú ñ ü ¡ ¿ y sus mayúsculas.
+
+Los nombres de los POKéMON no cambian, igual que en los juegos oficiales en castellano.
+
+## Instalación
+
+Hace falta:
+
+- La versión **0.8.11** del juego descargada del [release oficial](https://github.com/SheerSt/pokewilds/releases).
+- [Python 3](https://www.python.org/) con Pillow: `pip install pillow`
+- Un JDK de Java 8 o superior. En Windows, por ejemplo: `scoop install temurin21-jdk`
+
+Descarga este repositorio y ejecuta, indicando la carpeta del juego:
+
+```bash
+python castellano/construir.py "RUTA/pokewilds-v0.8.11-windows-64"
+```
+
+Después abre el juego como siempre con `pokewilds.exe`.
+
+- El script guarda una copia del jar original como `app/pokewilds.jar.original`.
+- **Para volver al inglés** copia `pokewilds.jar.original` encima de `app/pokewilds.jar`.
+- Las partidas guardadas y los mods siguen funcionando: los nombres internos del juego no se tocan, solo
+  se traduce lo que se ve en pantalla.
+
+## Cómo funciona
+
+La v0.8.11 no usa los ficheros de `i18n/` de este repositorio: sus textos están escritos dentro del
+código (`pokewilds.jar`). Por eso la traducción se aplica como un parche sobre el jar:
+
+- [`castellano/datos/`](castellano/datos/): **las traducciones**. Es lo único que hay que editar para
+  corregir un texto.
+- `castellano/src/.../Es.java`: traduce cada frase justo antes de mostrarla y añade las letras españolas
+  a la fuente.
+- `castellano/patcher/EsPatcher.java`: engancha esa traducción en los textos y menús del juego, usando
+  [ASM](https://asm.ow2.io/).
+- `castellano/imagenes.py`: vuelve a dibujar con la letra del juego las imágenes que llevan texto.
+- `castellano/construir.py`: comprueba las traducciones, lo compila todo, parchea el jar y lo instala.
+
+## Corregir o mejorar la traducción
+
+1. Edita el fichero de [`castellano/datos/`](castellano/datos/) que corresponda: `10_ataques`,
+   `20_objetos`, `30_interfaz`, `40_frases`, `50_reglas` o `60_literales`.
+2. Vuelve a ejecutar `construir.py`. Antes de parchear, avisa de errores de formato y de letras que la
+   fuente no puede dibujar (por ejemplo `:` `/` o `'`).
+
+Si el juego muestra alguna frase en inglés, se apunta sola en `castellano_sin_traducir.txt`, dentro de
+la carpeta del juego. Basta con añadirla a `datos/` y volver a construir.
+
+Los nombres caben en **12 letras** (10 en el submenú del POKéMON); los largos se abrevian como en los
+juegos de GBA en castellano (`V. Cortante`, `Autodestruc.`...). El formato completo de los ficheros está
+en [castellano/README.md](castellano/README.md).
+
+## Fuentes de los textos
+
+- Nombres oficiales de movimientos y objetos: [PokeAPI](https://pokeapi.co/) (idioma `es`).
+- Terminología de combate: la de Pokémon Oro, Plata y Cristal en castellano.
+
+## Créditos
+
+- **PokeWilds**: [SheerSt](https://github.com/SheerSt/pokewilds) y colaboradores.
+- La mayoría de las letras con tilde de la fuente (á, é, í, ó, ú, ñ, ü, ¡, ¿, É, Ü) salen de
+  `text_sheet1_transparent.png` del propio repositorio original; Á, Í, Ó, Ú y Ñ están dibujadas en el
+  mismo estilo.
+- [PokeAPI](https://pokeapi.co/) por los nombres oficiales.
+- [ASM](https://asm.ow2.io/) (licencia BSD) para modificar el jar. Se descarga al construir; no se
+  incluye en el repositorio.
+- Pokémon y sus nombres son marcas de Nintendo, Creatures Inc. y GAME FREAK inc. Proyecto de fans
+  sin ánimo de lucro.
 
 ---
+
+> **A continuación, el README original del proyecto, sin cambios.**
 
 # PokeWilds
 
