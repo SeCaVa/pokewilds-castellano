@@ -55,7 +55,7 @@
 @ damp soil | Tierra Lago
 @ soft sand | Arena Fina
 @ manure | Estiércol
-@ clear glass | Cristal
+@ clear glass | Cristal Fino
 @ thin paper | Papel Fino
 @ soft bedding | Ropa de Cama
 @ soft wool | Lana Suave
@@ -158,11 +158,11 @@
 # --- Nombres para la caja de requisitos de construcción ---
 # Esa caja pone cada palabra en una línea y añade la cantidad a la última ("DURA x1"):
 # caben 7 caracteres por línea, así que la ÚLTIMA palabra puede tener como mucho 5 letras
-# y las demás 7. Si no hay forma, se parte con guion como en los juegos de Game Boy.
+# y las demás 7. Si el nombre de la mochila no cabe, se usa un sinónimo corto.
 @ req:log | Leño
 @ req:grass | Pasto
 @ req:hard stone | Piedra Dura
-@ req:clear glass | Cris- tal
+@ req:clear glass | Cristal Fino
 @ req:ashen soil | Tierra Volc.
 @ req:cursed soil | Tierra Tumba
 @ req:damp soil | Tierra Lago
@@ -171,18 +171,18 @@
 @ req:dry sand | Arena Seca
 @ req:soft sand | Arena Fina
 @ req:light clay | Arcilla Luz
-@ req:flowers | Flo- res
-@ req:charcoal | Car- bón
+@ req:flowers | Flor
+@ req:charcoal | Brasa
 @ req:dusk stone | Piedra Noche
 @ req:life force | Fuerza Vital
 @ req:magnet | Imán
 @ req:miracle seed | Semilla Mil.
 @ req:nevermeltice | Hielo Perp.
 @ req:psi energy | Energía Psi
-@ req:sleeping bag | Saco Dor- mir
+@ req:sleeping bag | Saco
 @ req:soft bedding | Ropa de Cama
 @ req:soft wool | Lana Suave
-@ req:spell tag | Hechi- zo
+@ req:spell tag | Sello
 @ req:thin paper | Papel Fino
 
 # --- Descripciones del menú de objetos (máx. 2 líneas de 19 caracteres) ---
