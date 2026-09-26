@@ -44,7 +44,7 @@
 
 # --- Materiales ---
 @ log | Leño
-@ grass | Hierba
+@ grass | Pasto
 @ dry sand | Arena Seca
 @ light clay | Arcilla Luz
 @ flowers | Flores
@@ -160,7 +160,7 @@
 # caben 7 caracteres por línea, así que la ÚLTIMA palabra puede tener como mucho 5 letras
 # y las demás 7. Si no hay forma, se parte con guion como en los juegos de Game Boy.
 @ req:log | Leño
-@ req:grass | Hier- ba
+@ req:grass | Pasto
 @ req:hard stone | Piedra Dura
 @ req:clear glass | Cris- tal
 @ req:ashen soil | Tierra Volc.
@@ -221,7 +221,7 @@
 = A sturdy LOG.
 > Un LEÑO robusto.
 = Freshly cut GRASS.
-> HIERBA recién cortada.
+> PASTO recién cortado.
 = Hot, dry sand from the desert.
 > Arena seca y caliente del desierto.
 = Soft clay from the mountains.
