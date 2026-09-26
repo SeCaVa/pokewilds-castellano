@@ -113,6 +113,9 @@ def validate(text):
                 bad = sorted(set(c for c in name if c not in ALLOWED))
                 if bad:
                     errors.append('línea %d: caracteres sin glyph %s en "%s"' % (n, bad, name))
+                if body.startswith('req:') and (' ' in name or len(name) > 7):
+                    errors.append('línea %d: requisito "%s" debe ser una palabra de 7 letras como máximo'
+                                  % (n, name))
         elif k == '\u2640':
             pass
         else:

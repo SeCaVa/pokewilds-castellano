@@ -158,33 +158,33 @@
 # --- Nombres para la caja de requisitos de construcción ---
 # Esa caja pone cada palabra en una línea (máx. 7 letras) y añade la cantidad a la última
 # ("DURA x1"). Si la última palabra tiene más de 5 letras, la cantidad va sola en la línea
-# siguiente ("CRISTAL" / "     x1"). Mejor nombres de una sola palabra: si son dos, parece
-# que la primera línea es otro objeto sin cantidad.
+# siguiente ("CRISTAL" / "     x1"). Siempre UNA palabra: con dos parecería que la primera
+# línea es otro objeto sin cantidad (se abrevia: "Piedra Dura" -> "P.Dura").
 @ req:log | Leño
 @ req:grass | Pasto
-@ req:hard stone | Piedra Dura
+@ req:hard stone | P.Dura
 @ req:clear glass | Cristal
-@ req:ashen soil | Tierra Volc.
-@ req:cursed soil | Tierra Tumba
-@ req:damp soil | Tierra Lago
-@ req:dry soil | Tierra Seca
-@ req:mystic soil | Tierra Bosq.
-@ req:dry sand | Arena Seca
-@ req:soft sand | Arena Fina
-@ req:light clay | Arcilla Luz
-@ req:flowers | Flor
-@ req:charcoal | Brasa
-@ req:dusk stone | Piedra Noche
-@ req:life force | Fuerza Vital
+@ req:ashen soil | T.Volc.
+@ req:cursed soil | T.Tumba
+@ req:damp soil | T.Lago
+@ req:dry soil | T.Seca
+@ req:mystic soil | T.Bosq.
+@ req:dry sand | A.Seca
+@ req:soft sand | A.Fina
+@ req:light clay | Arcilla
+@ req:flowers | Flores
+@ req:charcoal | Carbón
+@ req:dusk stone | P.Noche
+@ req:life force | F.Vital
 @ req:magnet | Imán
-@ req:miracle seed | Semilla Mil.
-@ req:nevermeltice | Hielo Perp.
-@ req:psi energy | Energía Psi
+@ req:miracle seed | Semilla
+@ req:nevermeltice | Hielo
+@ req:psi energy | E.Psi
 @ req:sleeping bag | Saco
-@ req:soft bedding | Ropa de Cama
-@ req:soft wool | Lana Suave
-@ req:spell tag | Sello
-@ req:thin paper | Papel Fino
+@ req:soft bedding | R.Cama
+@ req:soft wool | Lana
+@ req:spell tag | Hechizo
+@ req:thin paper | Papel
 
 # --- Descripciones del menú de objetos (máx. 2 líneas de 19 caracteres) ---
 = A white APRICORN.
