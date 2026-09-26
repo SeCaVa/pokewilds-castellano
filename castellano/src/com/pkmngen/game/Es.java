@@ -261,6 +261,23 @@ public class Es {
         return (r == null ? s : r).toUpperCase(locale);
     }
 
+    /**
+     * Palabras de un requisito de construcción, una por línea. El juego añade la cantidad
+     * ("x1") a la última palabra rellenándola hasta 5 letras, y cada línea admite 7 caracteres:
+     * si la última palabra es más larga, se añade una línea vacía para que la cantidad vaya
+     * sola debajo ("     x1") en vez de salirse de la caja.
+     */
+    public static String[] reqSplit(String s, String regex) {
+        String[] words = s.split(regex);
+        if (words.length == 0 || words[words.length - 1].length() <= 5) {
+            return words;
+        }
+        String[] out = new String[words.length + 1];
+        System.arraycopy(words, 0, out, 0, words.length);
+        out[words.length] = "";
+        return out;
+    }
+
     /** Textos compuestos que se pintan con la fuente TTF (notificaciones). */
     public static String sb(StringBuilder b) {
         return ui(b.toString());

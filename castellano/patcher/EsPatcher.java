@@ -288,6 +288,13 @@ public class EsPatcher {
                     n = r;
                     changed = true;
                     count("requisitos");
+                } else if (m.owner.equals("java/lang/String") && m.name.equals("split") && m.desc.equals("(Ljava/lang/String;)[Ljava/lang/String;")) {
+                    // newReq.split(" ") -> Es.reqSplit(newReq, " "): la cantidad baja de línea si no cabe
+                    MethodInsnNode r = new MethodInsnNode(Opcodes.INVOKESTATIC, ES, "reqSplit", "(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;", false);
+                    mn.instructions.set(m, r);
+                    n = r;
+                    changed = true;
+                    count("requisitos");
                 }
             }
         }

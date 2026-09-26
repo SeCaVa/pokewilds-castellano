@@ -55,7 +55,7 @@
 @ damp soil | Tierra Lago
 @ soft sand | Arena Fina
 @ manure | Estiércol
-@ clear glass | Cristal Fino
+@ clear glass | Cristal
 @ thin paper | Papel Fino
 @ soft bedding | Ropa de Cama
 @ soft wool | Lana Suave
@@ -156,13 +156,14 @@
 @ egg | Huevo
 
 # --- Nombres para la caja de requisitos de construcción ---
-# Esa caja pone cada palabra en una línea y añade la cantidad a la última ("DURA x1"):
-# caben 7 caracteres por línea, así que la ÚLTIMA palabra puede tener como mucho 5 letras
-# y las demás 7. Si el nombre de la mochila no cabe, se usa un sinónimo corto.
+# Esa caja pone cada palabra en una línea (máx. 7 letras) y añade la cantidad a la última
+# ("DURA x1"). Si la última palabra tiene más de 5 letras, la cantidad va sola en la línea
+# siguiente ("CRISTAL" / "     x1"). Mejor nombres de una sola palabra: si son dos, parece
+# que la primera línea es otro objeto sin cantidad.
 @ req:log | Leño
 @ req:grass | Pasto
 @ req:hard stone | Piedra Dura
-@ req:clear glass | Cristal Fino
+@ req:clear glass | Cristal
 @ req:ashen soil | Tierra Volc.
 @ req:cursed soil | Tierra Tumba
 @ req:damp soil | Tierra Lago
