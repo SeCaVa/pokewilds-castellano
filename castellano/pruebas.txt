@@ -56,3 +56,6 @@ ui:   - Controls -
 ui:FIELD MOVES
 ui:Picked up poké ball x3.
 ui:FIRE
+ saved the game!
+ used POKé BALL!
+' POKéMON gained 12 EXP. Points!

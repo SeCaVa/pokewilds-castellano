@@ -5,6 +5,27 @@
 #   {x2} " x"+cantidad   {?1:txt} txt si el grupo 1 existe (p.ej. "Enemy ")
 # El juego antepone "Enemy " al POKéMON rival; en castellano va detrás: "PIKACHU enemigo".
 
+# ---------------------------------------------------------------- jugador sin nombre
+# Si el jugador deja el nombre vacío, estas frases empiezan directamente por un espacio.
+~ ^ ?saved the game!$
+> ¡Partida guardada!
+~ ^ ?whited out!$
+> ¡Estás fuera de combate!
+~ ^ ?is out of useable POKéMON!$
+> ¡No te quedan POKéMON!
+~ ^' POKéMON gained (\d+) EXP\. Points!$
+> ¡Tus POKéMON ganaron {1} Puntos EXP.!
+~ ^ used (.+)!$
+> ¡Usaste {n1}!
+~ ^ received an EGG\.$
+> Recibiste un HUEVO.
+~ ^ received (.+)!$
+> ¡Recibiste {n1}!
+~ ^ got (?:a|an) (.+)!$
+> ¡Obtuviste {n1}!
+~ ^ has ADRENALINE (\d+)!$
+> ¡Tienes ADRENALINA {1}!
+
 # ---------------------------------------------------------------- estados
 ~ ^(Enemy )?(.+)' hurt by poison!$
 > ¡El veneno resta PS a {2}{?1: enemigo}!

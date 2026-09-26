@@ -256,7 +256,7 @@
 = Do you want to sleep?
 > ¿Quieres dormir?
 = Remove torch?
-> ¿Quitar la antorcha?
+> ¿Quitar el farol?
 = A Rock-type POKéMON can break this using ROCK SMASH.
 > Un POKéMON de tipo ROCA puede romperla con GOLPE ROCA.
 = Want to SURF?

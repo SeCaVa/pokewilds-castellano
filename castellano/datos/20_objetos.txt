@@ -43,16 +43,16 @@
 @ lum | Ziuela
 
 # --- Materiales ---
-@ log | Tronco
+@ log | Leño
 @ grass | Hierba
 @ dry sand | Arena Seca
 @ light clay | Arcilla Luz
 @ flowers | Flores
-@ cursed soil | T. Maldita
-@ ashen soil | T. Ceniza
-@ dry soil | T. Seca
-@ mystic soil | T. Mística
-@ damp soil | T. Húmeda
+@ cursed soil | Tierra Tumba
+@ ashen soil | Tierra Volc.
+@ dry soil | Tierra Seca
+@ mystic soil | Tierra Bosq.
+@ damp soil | Tierra Lago
 @ soft sand | Arena Fina
 @ manure | Estiércol
 @ clear glass | Cristal
@@ -68,13 +68,13 @@
 @ honey | Miel
 @ stardust | Polvoestelar
 @ star piece | Trozo Estr.
-@ psi energy | E. Psíquica
+@ psi energy | Energía Psi
 @ dark energy | E. Siniestra
 @ life force | Fuerza Vital
 @ ancientpowder | Polvoantiguo
 @ ancient dust | Polvoantiguo
-@ nevermeltice | Antiderretir
-@ nvrmlt ice | Antiderretir
+@ nevermeltice | Hielo Perp.
+@ nvrmlt ice | Hielo Perp.
 @ dragon scale | Escamadragón
 @ dragon fang | Colmillodrag
 @ binding band | Banda Atad.
@@ -155,33 +155,35 @@
 @ bedding | Ropa de Cama
 @ egg | Huevo
 
-# --- Nombres cortos para la lista de requisitos de construcción ---
-# (esa pantalla parte el nombre en palabras, una por línea)
-@ req:log | Tronco
-@ req:grass | Hierba
-@ req:hard stone | Piedra
-@ req:clear glass | Cristal
-@ req:ashen soil | Ceniza
-@ req:cursed soil | T.Maldita
-@ req:damp soil | T.Húmeda
-@ req:dry soil | T.Seca
-@ req:mystic soil | T.Mística
-@ req:dry sand | Arena
+# --- Nombres para la caja de requisitos de construcción ---
+# Esa caja pone cada palabra en una línea y añade la cantidad a la última ("DURA x1"):
+# caben 7 caracteres por línea, así que la ÚLTIMA palabra puede tener como mucho 5 letras
+# y las demás 7. Si no hay forma, se parte con guion como en los juegos de Game Boy.
+@ req:log | Leño
+@ req:grass | Hier- ba
+@ req:hard stone | Piedra Dura
+@ req:clear glass | Cris- tal
+@ req:ashen soil | Tierra Volc.
+@ req:cursed soil | Tierra Tumba
+@ req:damp soil | Tierra Lago
+@ req:dry soil | Tierra Seca
+@ req:mystic soil | Tierra Bosq.
+@ req:dry sand | Arena Seca
 @ req:soft sand | Arena Fina
-@ req:light clay | Arcilla
-@ req:flowers | Flores
-@ req:charcoal | Carbón
-@ req:dusk stone | P.Noche
-@ req:life force | F.Vital
+@ req:light clay | Arcilla Luz
+@ req:flowers | Flo- res
+@ req:charcoal | Car- bón
+@ req:dusk stone | Piedra Noche
+@ req:life force | Fuerza Vital
 @ req:magnet | Imán
-@ req:miracle seed | Semilla
-@ req:nevermeltice | Antiderr.
-@ req:psi energy | E.Psíquica
-@ req:sleeping bag | Saco
-@ req:soft bedding | Cama
-@ req:soft wool | Lana
-@ req:spell tag | Hechizo
-@ req:thin paper | Papel
+@ req:miracle seed | Semilla Mil.
+@ req:nevermeltice | Hielo Perp.
+@ req:psi energy | Energía Psi
+@ req:sleeping bag | Saco Dor- mir
+@ req:soft bedding | Ropa de Cama
+@ req:soft wool | Lana Suave
+@ req:spell tag | Hechi- zo
+@ req:thin paper | Papel Fino
 
 # --- Descripciones del menú de objetos (máx. 2 líneas de 19 caracteres) ---
 = A white APRICORN.
@@ -217,7 +219,7 @@
 = Can be planted to grow BERRIES.
 > Se planta para que crezcan BAYAS.
 = A sturdy LOG.
-> Un TRONCO robusto.
+> Un LEÑO robusto.
 = Freshly cut GRASS.
 > HIERBA recién cortada.
 = Hot, dry sand from the desert.
